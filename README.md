@@ -1,4 +1,8 @@
-## Laravel 4.x
+# Laravel 4.x Quickstart for [Pagodabox](https://pagodabox.com/)
+
+Get a copy of Laravel running on Pagodabox in seconds.
+
+Based on the Boxfile method from: http://blog.aranw.net/blog/building-a-blog-laravel-4-and-pagoda-box
 
 ### A Framework For Web Artisans
 
@@ -11,3 +15,17 @@
 ### License
 
 The Laravel framework is open-sourced software license under the [MIT license](http://opensource.org/licenses/MIT)
+
+
+## Usage
+
+- Install the quickstart on Pagodabox
+- Clone the repo on your machine
+- Open up Boxfile and modify the web1 name
+
+``web1:
+  name: YOUR_APP_NAME``
+
+## Features
+
+- Laravel 4 Beta 4
