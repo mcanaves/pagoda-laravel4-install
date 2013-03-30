@@ -1,9 +1,5 @@
-global:
- env:
-  - LARAVEL_ENV: production
-
 web1:
- name: laravel-pagoda
+ name: laravelWeb
  document_root: public
  shared_writable_dirs:
   - app/storage/cache
@@ -22,6 +18,8 @@ web1:
   - zip
  after_build:
   - "if [ ! -f composer.phar ]; then curl -s http://getcomposer.org/installer | php; fi; php composer.phar install"
+ before_deploy:
+  - "php artisan migrate"
  after_deploy:
   - "rm -f app/storage/cache/*"
   - "rm -f app/storage/views/*"
