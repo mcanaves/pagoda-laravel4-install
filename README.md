@@ -22,9 +22,10 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 - Install the quickstart on Pagodabox
 - Clone the repo on your machine
 - Open up Boxfile and modify the web1 name
-
 ``web1:
   name: YOUR_APP_NAME``
+- Open APP config (app/config/app.php) and change Encryption Key
+- Push changes to Pagoda Box
 
 ## Features
 
