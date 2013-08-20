@@ -29,4 +29,4 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## Features
 
-- Laravel v4.0.6 with PHP 5.4.14
+- Laravel v4.0.6 with PHP 5.3.23
